@@ -23,6 +23,8 @@ export default function Nav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             {links.map((link) => link)}
+            {/* <li>About</li>
+            <li>Portfolio</li> */}
           </ul>
         </div>
       </div>
