@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+nav{
+    height:100px;
+    background-color: #21325e;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1{
+    padding: 30px;
+    color:white;
+}
+
+.links {
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+  }
+  
