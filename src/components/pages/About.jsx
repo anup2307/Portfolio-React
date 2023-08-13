@@ -2,72 +2,66 @@
 
 export default function About() {
     return (
-      <div name='about' className='w-full h-screen bg-[#21325e] text-gray-300'>
-      <div className='flex flex-row justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full'>
-          <div >
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
-              Anu Priya Govindarajan
-            </p>
-            <p className="pt-3"> 
-                Hi, I am a <span className="font-bold">Full Stach web Developer</span>  with a passion for learning and developing. 
-                I come with 8 year experience in different parts of the SDLC cycle.
-                I am passionate about building excellent software that improves
-                the lives of those around me. I completed my full stack web development course from UNC, chapel hill university.
-            </p>
-            <div className="">
-                <h4>Skills</h4>
-          <ul>
-          <li className="">
-            <h2> Front-End</h2>
-           <span>
-             ReactJS, HTML, CSS, BootStrap, TailwindCSS, Handlebars, 
-           </span>
-         </li>
-         <li className="">
-             <h2>Back-End</h2>
-             <span>
-               NodeJS, ExpressJS, GraphQL, MySQL, MongoDB, Sequlize ORM, ODM
-             </span>
-          </li>
-           <li className="">
-            <h2>Languages</h2>
-             <span>JavaScript, COBOL</span>
-           </li>
-       </ul>
-        </div>
-      
+      <div  className='w-full h-screen bg-[#21325e] text-gray-300'>
+        <div className='flex flex-col justify-center items-center w-full h-full'>
+          <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+            <div className='sm:text-right pb-8 pl-4'>
+              <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
+                About
+              </p>
+            </div>
           </div>
+          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+            <div className='sm:text-right text-2xl font-bold'>
+              <p>Hi, I'm <span className="text-pink-600 font-bold text-4xl">Anu priya Govindarajan</span> , nice to meet you. Please take a look around.</p>
+            </div>
+            <div>
+              <p>I am a Full Stach web Developer  with a passion for learning and developing. 
+                  I come with 8 year experience in different parts of the SDLC cycle.
+                  I am passionate about building excellent software that improves
+                  the lives of those around me. I completed my full stack web development course from UNC, chapel hill university.</p>  
+            </div>
+          </div>
+          <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 mt-4'>
+            <div className='sm:text-right pb-8 pl-4'>
+              <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
+                Skills
+              </p>
+            </div>
+          </div>
+          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+            <div className='sm:text-right text-2xl font-bold'>
+              <h3 className="text-pink-600 font-bold text-3xl p-2">Front-End</h3>
+            </div>
+            <div>
+                <p className="p-3"> ReactJS, HTML, CSS, BootStrap, TailwindCSS, Handlebars</p>
+            </div>
+          </div>
+          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+            <div className='sm:text-right text-2xl font-bold'>
+              <h3 className="text-pink-600 font-bold text-3xl p-2">Back-End</h3>
+            </div>
+            <div>
+                <p className="p-3"> NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB</p>
+            </div>
+          </div>
+          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+            <div className='sm:text-right text-2xl font-bold'>
+              <h3 className="text-pink-600 font-bold text-3xl p-2">Languages</h3>
+            </div>
+            <div>
+                <p className="p-3"> JavaScript</p>
+            </div>
+          </div>
+          <div className='mt-8 flex justify-center pb-8 pl-4'>
+              <a className='text-4xl font-bold inline border-b-4 border-pink-600' href='#'>
+                Download My Resume
+              </a>
+            </div>
         </div>
-      </div>
+
+
+
     </div>
-      // <div className=" w-full h-screen bg-[#21325e] text-white">
-      //   <div className=" text-2xl mx-auto flex justify-center">
-      //     Hi! 
-      //     I am Anu Priya Govindarajan,I am a <span>Full Stach web Developer</span> Software developer with a passion for learning and developing and 
-      //      with a 8 year experience in different parts of the SDLC cycle. 
-      //   </div>
-      //   <div className="">
-      //     <h2>Skills</h2>
-      //     <ol className="">
-      //     <li className="">
-      //       <h2> Front-End</h2>
-      //       <span>
-      //         ReactJS, HTML, CSS, BootStrap, TailwindCSS, Handlebars, 
-      //       </span>
-      //     </li>
-      //     <li className="">
-      //       <h2>Back-End</h2>
-      //       <span>
-      //         NodeJS, ExpressJS, GraphQL, MySQL, MongoDB, Sequlize ORM, ODM
-      //       </span>
-      //     </li>
-      //     <li className="">
-      //       <h2>Languages</h2>
-      //       <span>JavaScript, COBOL</span>
-      //     </li>
-      //   </ol>
-      //   </div>
-      // </div>
     )
 }
