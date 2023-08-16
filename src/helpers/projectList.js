@@ -52,11 +52,4 @@ export const projectList = [
     skill: "JavaScript/HTML/CSS",
     github: "https://github.com/anup2307/Weather-Dashboard",
   },
-  {
-    key: 8,
-    name: "Weather Dashboard",
-    bgimage: dochub,
-    skill: "JavaScript/HTML/CSS",
-    github: "https://github.com/anup2307/Weather-Dashboard",
-  },
 ];

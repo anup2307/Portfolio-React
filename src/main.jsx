@@ -7,38 +7,38 @@ import App from './App.jsx'
 import About from './components/pages/About.jsx'
 import Contact from './components/pages/Contact.jsx'
 import Projects from './components/pages/Projects.jsx'
-import Resume from './components/pages/Resume.jsx'
+import Skills from './components/pages/Skills.jsx'
 import Experience from './components/pages/Experience.jsx'
 
 const router = createBrowserRouter([
   {
-    path:'/',
+    path: '/',
     element: <App />,
     children: [
       {
-        index:true,
-        element:<About />
+        index: true,
+        element: <About />
       },
       {
-        path:'/projects',
-        element:<Projects />
+        path: '/projects',
+        element: <Projects />
       },
       {
-        path:'/experience',
-        element:<Experience />
+        path: '/experience',
+        element: <Experience />
       },
       {
-        path:'/contact',
-        element:<Contact />
+        path: '/contact',
+        element: <Contact />
       },
       {
-        path:'/resume',
-        element:<Resume />
+        path: '/skills',
+        element: <Skills />
       },
     ]
   }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-   <RouterProvider router={router} />
+  <RouterProvider router={router} />
 )

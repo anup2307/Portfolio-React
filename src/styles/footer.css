@@ -15,6 +15,10 @@
     font-size: 50px;
     cursor: pointer;
   }
+
+  .socialMedia svg:hover{
+    box-shadow: 3px 3px 3px 3px rgb(187, 23, 111);
+  }
   
   .footer p {
     color: white;
