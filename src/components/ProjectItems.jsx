@@ -1,4 +1,6 @@
-import GitHubIcon from "@material-ui/icons/GitHub";
+import {
+    FaGithub,
+} from 'react-icons/fa';
 
 
 export default function ProjectItem({ name, image, skill, applink }) {
@@ -10,7 +12,7 @@ export default function ProjectItem({ name, image, skill, applink }) {
                         {name}
                     </a>
                     <a href={applink} target="_blank" rel="noreferrer" className="p-3" >
-                        <GitHubIcon />
+                        <FaGithub size={30} />
                     </a>
                     <p className="text-1xl font bold tracking-wider p-3">
                         {skill}
