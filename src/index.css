@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    html {
-      @apply text-neutral-800;
-    }
-    html.dark {
-      @apply text-neutral-50;
-      @apply bg-neutral-800;
-    }
-  }
 
 .content-div {
     background-repeat: no-repeat;
@@ -18,11 +9,19 @@
     height: 250px;
 }
 
+
 .content-div:hover {
     opacity: 0.3;
-    /* background-image: linear-gradient(
-        to right,
-        rgba(112, 157, 255, 0.8),
-        hsla(242, 74%, 61%, 0.8)   
-    )!important; */
+}
+
+.project{
+    opacity:0;    
+}
+
+.project:hover{
+    opacity:1;    
+}
+
+.atag:hover{
+    opacity:1
 }
