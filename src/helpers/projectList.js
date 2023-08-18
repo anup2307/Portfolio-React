@@ -1,6 +1,8 @@
 import sportsImg from "../assets/Sports-companion.png";
 import dochub from "../assets/DocHub.png";
 import techblog from "../assets/techblog.png";
+import weatherDashboard from "../assets/weather-dashboard.png";
+import books from "../assets/books.png";
 
 export const projectList = [
   {
@@ -8,48 +10,47 @@ export const projectList = [
     name: "Sports Companion",
     bgimage: sportsImg,
     skill: "JavaScript/HTML/CSS",
-    github: "https://dinh282.github.io/sports-companion/",
+    applink: "https://dinh282.github.io/sports-companion/",
+    github: "https://github.com/anup2307/sports-companion",
   },
   {
     key: 2,
     name: "DocHub",
     bgimage: dochub,
     skill: "Express/Handlebars/MySQL/CSS",
-    github: "https://dochub78-78fe2203b787.herokuapp.com/",
+    applink: "https://dochub78-78fe2203b787.herokuapp.com/",
+    github: "https://github.com/anup2307/DocHub",
   },
   {
     key: 3,
     name: "Tech Blog",
     bgimage: techblog,
     skill: "Express/Handlebars/MySQL/CSS",
-    github: "https://tech-blog2307-f34ca680f996.herokuapp.com/",
+    applink: "https://tech-blog2307-f34ca680f996.herokuapp.com/",
+    github: "https://github.com/anup2307/Tech-Blog",
   },
   {
     key: 4,
     name: "Weather Dashboard",
-    bgimage: sportsImg,
+    bgimage: weatherDashboard,
     skill: "JavaScript/HTML/CSS",
+    applink: "https://anup2307.github.io/Weather-Dashboard/",
     github: "https://github.com/anup2307/Weather-Dashboard",
   },
   {
     key: 5,
-    name: "Weather Dashboard",
-    bgimage: sportsImg,
-    skill: "JavaScript/HTML/CSS",
-    github: "https://github.com/anup2307/Weather-Dashboard",
+    name: "Google Books",
+    bgimage: books,
+    skill: "MERN/Graphql",
+    applink: "https://protected-beyond-21497-69413c8e47b4.herokuapp.com/",
+    github: "https://github.com/anup2307/Google-Books-API",
   },
   {
     key: 6,
     name: "Weather Dashboard",
-    bgimage: dochub,
+    bgimage: books,
     skill: "JavaScript/HTML/CSS",
-    github: "https://github.com/anup2307/Weather-Dashboard",
-  },
-  {
-    key: 7,
-    name: "Weather Dashboard",
-    bgimage: sportsImg,
-    skill: "JavaScript/HTML/CSS",
+    applink: "https://anup2307.github.io/Weather-Dashboard/",
     github: "https://github.com/anup2307/Weather-Dashboard",
   },
 ];

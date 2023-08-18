@@ -7,9 +7,9 @@ import '../../styles/about.css';
 
 export default function About() {
   return (
-    <div className=' w-full h-screen bg-[#21325e] text-gray-300 flex flex-col justify-center items-center '>
-      <div className='max-w-[700px] w-full animated fadeInRight'>
-        <div className=' pb-3 pl-4 leading-8 '>
+    <div className=' w-full h-screen bg-[#21325e] text-gray-300 flex justify-center items-center overflow-auto'>
+      <div className='max-w-[900px] lg:animated lg:fadeInRight'>
+        <div className=' pb-3 pl-4 leading-8'>
           <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>
             About Me
           </p><br />
