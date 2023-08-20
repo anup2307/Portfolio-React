@@ -7,8 +7,7 @@
 .projectdisplay{
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: row;    
+  align-items: center;  
   flex-wrap: wrap; 
 }
 .content-div {
@@ -76,8 +75,11 @@
  }
 
  @media screen and (max-width: 768px) {   
-
   .projectdisplay{
-    flex-direction: column;     
+    display: block;
   }
+.content-div{
+  margin-left: 0;
+  margin-top: 40px;
+}
 }

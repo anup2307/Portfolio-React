@@ -11,7 +11,7 @@ export default function ProjectItem({ name, image, skill, applink, github }) {
                     <a href={github} target="_blank" rel="noreferrer" className='p-2'><FaGithub size={30} /></a>
                     <a href={applink} target="_blank" rel="noreferrer" className='p-2'>{name}</a>
                 </div>
-                <h4 className='p-2'> {skill} </h4>
+                <h4 className='p-3'> {skill} </h4>
             </div>
         </div>
     )

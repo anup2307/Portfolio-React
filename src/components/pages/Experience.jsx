@@ -2,7 +2,7 @@
 export default function Experience() {
   return (
     <div className="bg-[#21325e] text-white  overflow-auto ">
-      <div className="flex justify-center items-center flex-col">
+      <div className="flex justify-center items-center flex-col ml-5">
         <div className="mt-24">
           <h2 className='text-4xl font-bold underline decoration-pink-600 decoration-4 underline-offset-4'>Past Experiences</h2>
           <div >
