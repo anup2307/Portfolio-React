@@ -7,8 +7,8 @@ import {
 export default function About() {
   return (
     <div className=' w-full h-screen bg-[#21325e] text-gray-300 overflow-auto'>
-      <div className='flex justify-center items-center w-full h-full lg:animated lg:fadeInRight'>
-        <div className='max-w-[900px] mt-36'>
+      <div className='flex justify-center items-center w-full h-full'>
+        <div className='max-w-[900px] mt-36 lg:animated lg:fadeInRight'>
           <div className=' pb-3 pl-4 leading-8'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>
               About Me

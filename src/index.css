@@ -78,8 +78,9 @@
   .projectdisplay{
     display: block;
   }
-.content-div{
-  margin-left: 0;
-  margin-top: 40px;
-}
+  .content-div{
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
 }
