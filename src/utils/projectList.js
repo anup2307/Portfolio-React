@@ -48,7 +48,7 @@ export const projectList = [
   },
   {
     key: 6,
-    name: "Weather Dashboard",
+    name: "JATE",
     bgimage: jate,
     skill: "JavaScript/HTML/CSS",
     applink: "https://pwa-text-editor-anup-58d5747b722f.herokuapp.com/",
