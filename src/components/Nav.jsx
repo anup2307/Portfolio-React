@@ -44,7 +44,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#21325e] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#21325e] flex flex-col justify-center items-center opacity-100'
         }>
         <li className='py-6 text-3xl'><Link onClick={handleClick} to="/" style={{ color: 'white', padding: '10px' }} className="hover:underline hover:decoration-pink-600 ">
           About Me

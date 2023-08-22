@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export default function Resume() {
   return (
     <div className="h-screen bg-[#21325e] flex flex-col justify-center items-center">
-      <div className="lg:animated lg:fadeInRight">
-        <h1 className=' p-0 mb-8 text-2xl text-white'>Download <Link to='/AnuPriyaGovindarajan.docx' download target="_blank" className="border-b-4 border-pink-600 font-bold">My Resume</Link></h1>
+      <div className="fadeInRight">
+        <h1 className=' p-0 mb-8 text-2xl text-white'>Download <a href='../../assets/AnuPriyaGovindarajan.docx' download target="_blank" className="border-b-4 border-pink-600 font-bold">My Resume</a></h1>
         <h2 className='inline border-b-4 border-pink-600 text-2xl text-white font-bold '> Skills </h2>
         <div className='w-full flex flex-row mt-3'>
           <div className='sm:text-right text-2xl '>
@@ -19,7 +19,7 @@ export default function Resume() {
             <h3 className="text-pink-600  text-2xl">Back-End - </h3>
           </div>
           <div>
-            <p className="text-white p-1 text-xl"> NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB</p>
+            <p className="text-white p-1 text-xl"> NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, Sequelize ORM, MongoDB</p>
           </div>
         </div>
         <div className='w-full flex flex-row mt-3'>

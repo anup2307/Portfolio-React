@@ -3,6 +3,7 @@ import dochub from "../assets/DocHub.png";
 import techblog from "../assets/techblog.png";
 import weatherDashboard from "../assets/weather-dashboard.png";
 import books from "../assets/books.png";
+import jate from "../assets/jate.png";
 
 export const projectList = [
   {
@@ -48,9 +49,10 @@ export const projectList = [
   {
     key: 6,
     name: "Weather Dashboard",
-    bgimage: books,
+    bgimage: jate,
     skill: "JavaScript/HTML/CSS",
-    applink: "https://anup2307.github.io/Weather-Dashboard/",
-    github: "https://github.com/anup2307/Weather-Dashboard",
+    applink: "https://pwa-text-editor-anup-58d5747b722f.herokuapp.com/",
+    github:
+      "https://github.com/anup2307/Progressive-Web-Applications-PWA-Text-Editor",
   },
 ];
