@@ -3,16 +3,16 @@ import dochub from "../assets/DocHub.png";
 import techblog from "../assets/techblog.png";
 import weatherDashboard from "../assets/weather-dashboard.png";
 import books from "../assets/books.png";
-import jate from "../assets/jate.png";
+import chorebuddy from "../assets/chorebuddy.png";
 
 export const projectList = [
   {
     key: 1,
-    name: "Sports Companion",
-    bgimage: sportsImg,
+    name: "Chore Buddy",
+    bgimage: chorebuddy,
     skill: "JavaScript/HTML/CSS",
-    applink: "https://dinh282.github.io/sports-companion/",
-    github: "https://github.com/anup2307/sports-companion",
+    applink: "https://chore-buddy-6e6d2559dc60.herokuapp.com/",
+    github: "https://github.com/Dinh282/chore-buddy",
   },
   {
     key: 2,
@@ -48,11 +48,10 @@ export const projectList = [
   },
   {
     key: 6,
-    name: "JATE",
-    bgimage: jate,
+    name: "Sports Companion",
+    bgimage: sportsImg,
     skill: "JavaScript/HTML/CSS",
-    applink: "https://pwa-text-editor-anup-58d5747b722f.herokuapp.com/",
-    github:
-      "https://github.com/anup2307/Progressive-Web-Applications-PWA-Text-Editor",
+    applink: "https://dinh282.github.io/sports-companion/",
+    github: "https://github.com/anup2307/sports-companion",
   },
 ];
