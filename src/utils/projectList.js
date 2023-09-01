@@ -10,7 +10,7 @@ export const projectList = [
     key: 1,
     name: "Chore Buddy",
     bgimage: chorebuddy,
-    skill: "React/Graphql",
+    skill: "MERN/Graphql",
     applink: "https://chore-buddy-6e6d2559dc60.herokuapp.com/",
     github: "https://github.com/Dinh282/chore-buddy",
   },
