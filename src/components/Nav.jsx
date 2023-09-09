@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#21325e] text-gray-300'>
       <div>
-        <h2 className='text-2xl text-pink-600'>AG</h2>
+        <h2 className='text-2xl text-pink-600' style={{ fontFamily: 'Merienda, cursive' }}>AG</h2>
       </div>
 
       {/* menu */}

@@ -19,7 +19,7 @@ export default function Resume() {
             <h3 className="text-pink-600  text-2xl">Back-End - </h3>
           </div>
           <div>
-            <p className="text-white p-1 text-xl"> NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, Sequelize ORM, MongoDB</p>
+            <p className="text-white p-1 text-xl"> NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, Sequelize ORM, MongoDB, Mongoose ODM</p>
           </div>
         </div>
         <div className='w-full flex flex-row mt-3'>
