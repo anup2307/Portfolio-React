@@ -26,7 +26,7 @@ export default function About() {
           </div>
           <div className="bg-[#21325e] flex items-center text-gray-300 ">
             <a className='mr-3 p-3 hover:scale-150 hover:shadow-lg hover:shadow-pink-600 ' href="https://github.com/anup2307" > <FaGithub size={30} /></a>
-            <a className=' hover:scale-150 hover:shadow-lg hover:shadow-pink-600' href='www.linkedin.com/in/anu-priya-govindarajan-29506877' > <FaLinkedin size={30} /></a>
+            <a className=' hover:scale-150 hover:shadow-lg hover:shadow-pink-600' href='https://www.linkedin.com/in/anu-priya-govindarajan-29506877' > <FaLinkedin size={30} /></a>
           </div>
         </div>
       </div>
