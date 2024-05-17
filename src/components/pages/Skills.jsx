@@ -27,7 +27,7 @@ export default function Resume() {
             <h3 className="text-pink-600  text-2xl">Languages - </h3>
           </div>
           <div>
-            <p className="text-white p-1 text-xl"> JavaScript</p>
+            <p className="text-white p-1 text-xl"> JavaScript, Python</p>
           </div>
         </div>
         <br /><p className='text-1xl text-white '>
