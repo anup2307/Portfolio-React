@@ -11,8 +11,8 @@ export const projectList = [
     name: "Chore Buddy",
     bgimage: chorebuddy,
     skill: "MERN/Graphql",
-    applink: "https://chore-buddy-6e6d2559dc60.herokuapp.com/",
-    github: "https://github.com/Dinh282/chore-buddy",
+    applink: "- https://choresbuddy-bebdd86572e8.herokuapp.com/",
+    github: "https://github.com/anup2307/chore-buddy",
   },
   {
     key: 2,
